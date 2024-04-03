@@ -16,24 +16,25 @@ const App = () => {
           <div className="bottom">
             <h2>Spending - Last 7 days</h2>
             <div className="charts">
-              <div className="chart mon"></div>
-              <div className="chart tue"></div>
-              <div className="chart wed"></div>
-              <div className="chart thu"></div>
-              <div className="chart fri"></div>
-              <div className="chart sat"></div>
-              <div className="chart sun"></div>
+              <div className="chart-bars">
+                <div className="chart mon"></div>
+                <div className="chart tue"></div>
+                <div className="chart wed"></div>
+                <div className="chart thu"></div>
+                <div className="chart fri"></div>
+                <div className="chart sat"></div>
+                <div className="chart sun"></div>
+              </div>
+              <div className="chart-labels">
+                <div className="label">mon</div>
+                <div className="label">tue</div>
+                <div className="label">wed</div>
+                <div className="label">thu</div>
+                <div className="label">fri</div>
+                <div className="label">sat</div>
+                <div className="label">sun</div>
+              </div>
             </div>
-            <div className="chart-labels">
-              <div className="label"></div>
-              <div className="label"></div>
-              <div className="label"></div>
-              <div className="label"></div>
-              <div className="label"></div>
-              <div className="label"></div>
-              <div className="label"></div>
-            </div>
-
             <div className="bottom-info">
               <div className="bottom-info-left">
                 <p>Total this month</p>
