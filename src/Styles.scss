@@ -93,6 +93,7 @@ main {
     height: 100%;
     width: 100%;
     border-bottom: 3px solid $Cream;
+    margin-bottom: 20px;
 
     .chart {
       width: 11%;
@@ -164,6 +165,11 @@ main {
         
       }
 
+      p {
+        color: $Medium-brown;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
       
     }
   }
